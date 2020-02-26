@@ -4,6 +4,7 @@
 
 #headerItems {
   background-color: #0090ff;
+  justify-content: space-between;
   margin-right: 0%;
   margin-left: 60%;
   height: 100px;

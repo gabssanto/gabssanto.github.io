@@ -4,24 +4,26 @@
 
 #headerItems {
   background-color: #0090ff;
-  justify-content: space-between;
+  justify-content: center;
   margin-right: 0%;
-  margin-left: 60%;
+  /* margin-left: 60%; */
+  right: 0px;
   height: 70px;
   padding-left: 3%;
-  border-radius: 0px 0px 0px 90px;
+  /* border-radius: 0px 0px 0px 90px; */
   -webkit-box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.45);
   display: flex;
   flex-direction: row;
 }
 #profile {
-  float: left;
   background-image: url("../img/perfil.jpg");
   background-size: cover;
+  justify-content: center;
   background-position-x: 75%;
   background-repeat: no-repeat;
-  margin-left: 2%;
-  margin-top: 1%;
+  margin-left: auto;
+  margin-top: 2%;
+  margin-right: auto;
   height: 120px;
   width: 120px;
   border-radius: 50%;
@@ -45,7 +47,7 @@
 }
 
 #name {
-  margin-top: 5%;
+  margin-top: 1%;
   text-align: center;
 }
 
@@ -111,6 +113,17 @@
   border-radius: 50%;
 }
 
+.firewatchImage {
+  background-image: url("../img/logo_app.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 40%;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 5%;
+  border-radius: 50%;
+}
+
 .moreImage {
   background-image: url("../img/more_horiz-24px.svg");
   background-repeat: no-repeat;
@@ -140,6 +153,7 @@
 .section-projects {
   margin-top: 5%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;

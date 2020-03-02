@@ -141,6 +141,16 @@
   border-radius: 50%;
 }
 
+.devImage {
+  background-image: url("../img/dev.to.svg");
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 120px;
+  background-position-y: 30px;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
 .projectItem {
   align-items: center;
   justify-content: center;
